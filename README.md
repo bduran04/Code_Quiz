@@ -2,4 +2,4 @@ Description: This application prompts the user to complete a timed Javascript mu
 
 Deployed site: https://bduran04.github.io/Code_Quiz/
 
-![](codeQuiz.gif)
+![This is code quiz gif](/Assets/codeQuiz.gif)
