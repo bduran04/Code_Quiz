@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Fundamental Quiz</title>
+    <link href="style.css" />
+</head>
+<body>
+    <span class="timer"></span>
+    <div class="startPage">
+        <h1> Javascript Fundamentals Quiz </h1>
+        <p>The following questions pertain to Javascript fundamentals. You will have 5 multiple choice questions and 30 seconds to answer all questions. At the end, please enter your initials and review your score. Press start when you're ready! </p>
+        <button onmousedown="startQuiz()" class="startButton">Start</button>
+    </div>
+    <div class="questionsPage">
+        <div class="errorMessage"></div>
+        <h2 class="questionsTitle"></h2>
+        <ul class="questionsChoices"></ul>
+    </div>
+    <div class="endGamePage">
+        End Game Scores
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
